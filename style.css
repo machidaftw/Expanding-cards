@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  gap: 1.5rem;
+  overflow: hidden;
+  padding: 0 5.5rem;
+}
+
+.config {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 3.125rem;
+  color: #fff;
+  flex: 0.5;
+  box-sizing: border-box;
+  transition: flex 0.7s ease-in;
+  cursor: pointer;
+}
+
+.cardArea1 {
+  background-image: url(https://source.unsplash.com/random/1350x900/?cat);
+}
+.cardArea2 {
+  background-image: url(https://source.unsplash.com/random/1350x900/?dog);
+}
+.cardArea3 {
+  background-image: url(https://source.unsplash.com/random/1350x900/?bunny);
+}
+.cardArea4 {
+  background-image: url(https://source.unsplash.com/random/1350x900/?parrot);
+}
+
+.active {
+  flex: 5;
+}
